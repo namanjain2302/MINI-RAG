@@ -3,7 +3,7 @@ A modular Retrieval-Augmented Generation chatbot using open-source LLMs, Gradio 
 
 
 ## Features
-- Ingest and chunk custom documents (PDF, TXT).
+- Ingest and chunk custom documents (PDF).
 - Embedding via Hugging Face models.
 - Store/retrieve document vectors with Chroma.
 - Query handling and natural answers with LLM.
@@ -15,7 +15,7 @@ A modular Retrieval-Augmented Generation chatbot using open-source LLMs, Gradio 
 - **Front-End:** Gradio (UI)
 - **Embeddings:** Hugging Face Transformers (sentence-transformers)
 - **Vector Database:** Chroma DB (vector store)
-- **Generative Component:** Open-source llm (Meta-llama 3.1) 
+- **Generative Component:** Open-source llm (Meta-llama/Llama 3.2-1B) 
 - Python 3.10+
 
 ## Architecture
@@ -34,8 +34,8 @@ A modular Retrieval-Augmented Generation chatbot using open-source LLMs, Gradio 
 ```
 
 ### Corpus Preparation
-- Gather 3–5 documents (PDF, TXT, or Markdown) and place them in a data/ folder.
-- Load each document (with PyPDF2, pypdf, or simple file read).
+- Gather 3–5 documents (PDF) and place them in a data/ folder.
+- Load each document (with PyPDF).
 - Split the content into manageable text chunks (e.g., 256–512 tokens each).
 
 ### Embedding & Vector DB Ingestion
