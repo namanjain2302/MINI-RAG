@@ -1,4 +1,5 @@
 **Mini RAG-Powered Assistant**
+
 A modular Retrieval-Augmented Generation chatbot using open-source LLMs, Gradio UI, Hugging Face deployment, and Chroma vector DB for document-based Q&A from custom knowledge sources.
 
 **Features**
