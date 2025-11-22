@@ -18,3 +18,5 @@ A modular Retrieval-Augmented Generation chatbot using open-source LLMs, Gradio 
 - **Generative Component:** Open-source llm (Meta-llama 3.1) 
 - Python 3.10+
 
+## Workflow (Data Flow)
+<img src="rag.png" alt="RAG Architecture" width="700" />
