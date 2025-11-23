@@ -63,3 +63,4 @@ Push the code to Hugging Face Spaces for instant deployment.
 
 - **Static Indexing of Documents:** We had to re-run the entire `app.py`, oncce we add some new document. **Solution:** Introduce dynamic indexing in order to create embeddings and retrieve results directly from the new document.
 - **Model's Credentials Cached:** Model's credentials were cached due to which we couldn't do inference API calls directly to HuggingFace. **Solution:** We restarted the entire terminal and loggied into the HuggingFace CLI using `huggingface-cli login` to add the correct credentials corresponding to a model.
+- Thank you
